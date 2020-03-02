@@ -1,0 +1,13 @@
+package D6Collection;
+
+public class Treeset 
+{
+	public static void main(String[] args) 
+	{
+		Student s1 = new Student("Mark");
+		Student s2 = new Student("carl");
+		Student s3 = new Student("Mike");
+		
+	}
+
+}

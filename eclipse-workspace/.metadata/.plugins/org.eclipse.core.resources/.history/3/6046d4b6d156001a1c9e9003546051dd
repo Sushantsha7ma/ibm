@@ -1,0 +1,26 @@
+package D5;
+
+import java.io.FileNotFoundException;
+
+public class DrivingLicence 
+{
+	public static void main(String[] args) 
+	{
+		int age=15;
+		try
+		{
+			if(age<18)
+			{
+				throw new FileNotFoundException();
+			}
+			else 
+			{
+				System.out.println("Valid");
+			}
+		}
+		catch (Exception e) 
+		{
+			System.out.println(e);
+		}
+	}
+}

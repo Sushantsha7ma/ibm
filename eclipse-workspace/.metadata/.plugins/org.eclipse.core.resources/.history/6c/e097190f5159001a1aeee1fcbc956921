@@ -1,0 +1,18 @@
+package Problm1;
+
+public class UserException extends Exception
+{
+	public UserException(Exception e)
+	{
+		
+	}
+	public void InvalidEmailException(String s)
+	{
+		System.out.println(s);
+	}
+	public void InvalidPasswordException(String s)
+	{
+		System.out.println(s);
+	}
+	
+}

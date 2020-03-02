@@ -1,0 +1,17 @@
+package D6Collection;
+
+public class Friends 
+{
+	public void add(String name)
+	{
+		partyList.add(name);
+	}
+	public void remove(String name)
+	{
+		
+	}
+	public void sort()
+	{
+		
+	}
+}

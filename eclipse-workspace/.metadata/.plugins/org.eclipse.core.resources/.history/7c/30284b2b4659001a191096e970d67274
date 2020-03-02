@@ -1,0 +1,13 @@
+package D8Threads.D8DeadLock;
+
+import java.util.List;
+
+public class DeadLock 
+{
+	public static void main(String[] args) 
+	{
+		List<Integer> list = List<Integer>;
+		
+	}
+
+}

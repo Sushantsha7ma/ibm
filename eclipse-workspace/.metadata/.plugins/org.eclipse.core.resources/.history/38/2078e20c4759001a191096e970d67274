@@ -1,0 +1,5 @@
+package D8Threads.D8DeadLock;
+
+public interface MinMax {
+
+}

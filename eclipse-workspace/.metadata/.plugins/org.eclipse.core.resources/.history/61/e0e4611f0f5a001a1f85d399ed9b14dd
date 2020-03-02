@@ -1,0 +1,28 @@
+package TestCalculator;
+
+import org.hamcrest.core.IsCollectionContaining;
+import org.junit.*;
+import org.omg.CosNaming.IstringHelper;
+
+import Calculator.Calculator;
+
+public class Testing 
+{
+	@Test
+	public void test1() 
+	{
+		Calculator c = new Calculator();
+		int x =5;
+		int y =1;
+		int a = c.division(x,y);
+		boolean b = Assert.assertTrue(a==x/y);
+	}
+	
+//	@Test
+//	public void test2()throws NullPointerException
+//	{
+//		Calculator c = new Calculator();
+//		int a = c.addition(1,7);
+//		System.out.println(a);
+//	}
+}

@@ -1,0 +1,25 @@
+package TestCalculator;
+
+import org.junit.*;
+
+import Calculator.Calculator;
+
+public class Testing 
+{
+	@Test
+	public void test1() 
+	{
+		Calculator c = new Calculator();
+		int a = c.division(5,1);
+		Assert.assertTrue(true);
+		System.out.println(a);
+	}
+	
+//	@Test
+//	public void test2()throws NullPointerException
+//	{
+//		Calculator c = new Calculator();
+//		int a = c.addition(1,7);
+//		System.out.println(a);
+//	}
+}

@@ -1,0 +1,32 @@
+package D8Threads;
+
+class Bank implements Runnable
+{
+	static int count;
+
+	@Override
+	public void run() {
+		for(int i=1;i<=100;i++)
+		{
+			count=count+1;
+			//System.out.println(count);
+		}
+		
+	}
+
+}
+public class MainBank
+{
+	
+	public static void main(String[] args) 
+	{
+		Bank.count=0;
+		Thread t1 = new Thread(new Bank());
+		Thread t2 = new Thread(new Bank());
+		System.out.println(Bank.count);
+		t1.start();
+		t2.start();
+		System.out.println(Bank.count);
+		
+	}
+}

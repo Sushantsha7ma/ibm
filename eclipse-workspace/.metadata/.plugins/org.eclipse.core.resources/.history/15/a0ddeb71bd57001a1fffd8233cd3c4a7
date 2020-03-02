@@ -1,0 +1,16 @@
+package D6Collection;
+
+import java.util.*;
+
+public class Student 
+{
+	 Set set = new TreeSet();
+
+	public Student(String set) 
+	{
+		set.add(set);
+	}
+	 
+	
+	
+}

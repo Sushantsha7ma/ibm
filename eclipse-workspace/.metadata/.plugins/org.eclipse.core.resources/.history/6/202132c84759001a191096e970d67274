@@ -1,0 +1,31 @@
+package D8Threads.D8DeadLock;
+
+import java.util.List;
+
+public class Customer implements Runnable,MinMax
+{
+	List<Integer> list;
+	
+	public Customer(List<Integer> list) 
+	{
+		this.list=list;
+	}
+	@Override
+	public void run() 
+	{
+		consume();
+	}
+	public void consume()
+	{
+		if(list.size()==min)
+		{
+			
+		}
+		else 
+		{
+			
+			System.out.println(list.remove(0));
+		}
+	}
+
+}

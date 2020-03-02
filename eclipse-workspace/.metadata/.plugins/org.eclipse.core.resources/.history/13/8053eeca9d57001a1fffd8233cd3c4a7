@@ -1,0 +1,22 @@
+package D6Collection;
+
+public class Array 
+{
+	public static void main(String[] args) 
+	{
+		Friends party = new Friends();
+		party.add("Mahendra");
+		party.add("Ram");
+		party.add("Sham");
+		party.add("abc");
+		party.add("Naik");
+		party.print();
+		party.remove("Sham");
+		party.print();
+		party.sort();
+		party.print();
+		party.find("Mahendra");
+		party.find("");
+	}
+
+}

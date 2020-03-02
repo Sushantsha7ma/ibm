@@ -1,0 +1,38 @@
+package D8Threads.D8PlaceOrder;
+
+class PlaceOrder implements Runnable
+{
+	static int qt = 10;
+	@Override
+	public void run() 
+	{
+		orderPlace(5);
+	}
+	
+	public void orderPlace(int q)
+	{
+		if(q<=qt)
+		{
+			System.out.println("Order Succesfull You purchased "+q+" items");
+			qt=qt-q;
+		}
+		else
+		{
+			System.out.println("You can only order "+qt+ " items, not more than "+qt);
+		}
+	}
+	
+}
+
+public class Order 
+{
+	public static void main(String[] args) throws InterruptedException 
+	{
+		Thread t1 =new Thread(new PlaceOrder());
+		Thread t2 =new Thread(new PlaceOrder());
+		
+		t1.start();
+		t1.join();
+		t2.start();
+	}
+}

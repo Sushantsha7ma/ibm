@@ -1,0 +1,25 @@
+package D6Collection;
+
+public class Employee 
+{
+	String name;
+	int age;
+	
+	public Employee(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+	@Override
+	public boolean equals(Object obj) 
+	{
+		Employee e = (Employee)obj;
+		if(obj==null)
+		{
+			return false;
+		}
+		return (this.name.equals(e.name) && (this.age==e.age));
+	}
+
+}

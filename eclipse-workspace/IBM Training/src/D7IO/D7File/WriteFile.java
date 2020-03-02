@@ -1,0 +1,33 @@
+
+package D7IO.D7File;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+public class WriteFile 
+{
+	public static void main(String[] args) throws IOException 
+	{
+		File f =new File("C:\\Users\\admin\\Desktop\\M\\a.txt");
+		FileOutputStream fos = new FileOutputStream(f);
+		FileInputStream fin = new FileInputStream(f);
+		
+		String s = "Mahendra ";
+		
+		fos.write(s.getBytes());
+		fos.write(s.getBytes());
+		
+		fos.close();
+		
+		int read;
+		while((read=fin.read())!=-1)
+		{
+			System.out.print((char)read);
+		}
+		
+		fin.close();
+	}
+
+}

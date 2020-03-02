@@ -1,0 +1,14 @@
+package D8Threads;
+
+class Bank implements Runnable
+{
+	static int count;
+
+}
+public class MainBank
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

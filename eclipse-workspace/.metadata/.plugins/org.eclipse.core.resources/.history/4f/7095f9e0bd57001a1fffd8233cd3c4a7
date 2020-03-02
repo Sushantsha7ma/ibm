@@ -1,0 +1,18 @@
+package D6Collection;
+
+import java.util.*;
+
+public class Student 
+{
+	 Set set = new TreeSet();
+
+	public Student(String name) 
+	{
+		this.set.add(name);
+	}
+	public void show()
+	{
+		System.out.println(this.set);
+	}
+	
+}

@@ -1,0 +1,28 @@
+package D6Collection;
+
+import java.util.*;
+
+public class Student 
+{
+	 String name;
+	 int age;
+	 
+	public Student(String name, int age) 
+	{
+		this.name = name;
+		this.age = age;
+	}
+}
+	
+class Comparator
+{
+	@Override
+	public int compare(Object o1, Object o2) 
+	{
+		Student s1 = (Student)o1;
+		Student s2 = (Student)o2;
+		
+		return s1.name.compareTo(s2.name);
+	}
+	 
+}

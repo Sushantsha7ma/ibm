@@ -1,0 +1,24 @@
+package D6Collection;
+
+import java.util.*;
+import java.util.Collection;
+
+public class Array 
+{
+	public static void main(String[] args) 
+	{
+		ArrayList partyList = new ArrayList(3);
+		partyList.add("Mahendra");
+		partyList.add("Ram");
+		partyList.add("Sham");
+		partyList.add("abc");
+		partyList.add("Naik");
+		
+		System.out.println(partyList.contains("Mahendra"));
+		System.out.println(partyList.contains(""));
+		
+		Collection.sort
+		
+	}
+
+}

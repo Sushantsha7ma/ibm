@@ -1,0 +1,22 @@
+package D8Threads.D8PlaceOrder;
+
+class PlaceOrder implements Runnable
+{
+
+	@Override
+	public void run() 
+	{
+		
+	}
+	
+}
+
+public class Order 
+{
+	public static void main(String[] args) 
+	{
+		Thread t1 = new Thread(new PlaceOrder());
+		Thread t2 = new Thread(new PlaceOrder());
+		
+	}
+}

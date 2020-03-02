@@ -1,0 +1,20 @@
+package D6Collection;
+
+import java.util.Set;
+
+public class Student 
+{
+	
+	Set set = new TreeSet();
+
+	public Student(String name) 
+	{
+		set.add(name);
+	}
+	
+	
+	private void sort() {
+		// TODO Auto-generated method stub
+
+	}
+}

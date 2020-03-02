@@ -1,0 +1,27 @@
+package D7IO;
+
+import java.io.*;
+
+public class Files 
+{
+	public static void main(String[] args) 
+	{
+		File f = new File("D:\\Mn");
+		
+//		while(f.isDirectory())
+//		{
+//			while(f.isDirectory())
+//			{
+//				System.out.println(f.getName());
+//				if(f.exists())
+//				{
+//					System.out.println(f.getName());
+//				}
+//			}
+//			System.out.println("--");
+//		}
+		System.out.println(f.list("D:\\Mn"));
+		
+	}
+
+}

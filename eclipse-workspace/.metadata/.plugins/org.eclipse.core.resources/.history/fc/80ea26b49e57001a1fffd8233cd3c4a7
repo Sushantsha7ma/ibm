@@ -1,0 +1,29 @@
+package D6Collection;
+
+public class Array 
+{
+	public static void main(String[] args) 
+	{
+		Friends party = new Friends();
+		
+		party.add("Mahendra");
+		party.add("Mahandra");
+		party.add("Sham");
+		party.add("abc");
+		party.add("Naik");
+		
+		party.print();
+		
+		party.remove("abc");
+		
+		party.print();
+		
+		party.sort();
+		
+		party.print();
+		
+		System.out.println(party.search("Mahendra"));
+		System.out.println(party.search(""));
+	}
+
+}

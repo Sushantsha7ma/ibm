@@ -1,0 +1,53 @@
+package Problm1;
+
+public class User 
+{
+	String names [] = {""
+	String name;
+	String email;
+	String password;
+	int age;
+	
+	private void authentication(String email, String password)
+	{
+		
+	}
+	
+	public void valid(String email,String password) throws UserException
+	{
+		if((password!=null) && (email!=null))
+		{
+			if(email.matches("^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$"))
+			{
+				if((password.length()>8))
+				{
+					authentication(email,password);
+				}
+				else
+				{
+					throw new InvalidPasswordExeption("Password is too short");
+				}	
+			}
+			else	
+			{
+				throw new InvalidEmailException("Email is not valid");
+			}
+		}
+	}
+	
+	public User(String email, String password) 
+	{
+		this.email = email;
+		this.password = password;
+		try
+		{
+			valid(email,password);
+		}
+		catch (Exception e) 
+		{
+			System.out.println(e);
+		}
+		
+	}
+	
+}

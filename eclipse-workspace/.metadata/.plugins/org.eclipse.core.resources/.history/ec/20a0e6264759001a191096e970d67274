@@ -1,0 +1,23 @@
+package D8Threads.D8DeadLock;
+
+import java.util.List;
+
+public class Customer implements Runnable
+{
+	List<Integer> list;
+	
+	public Customer(List<Integer> list) 
+	{
+		
+	}
+	@Override
+	public void run() 
+	{
+		consume();
+	}
+	public void consume()
+	{
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package D8Threads.D8PlaceOrder;
+
+class PlaceOrder implements Runnable
+{
+	static int qt;
+	@Override
+	public void run() 
+	{
+		orderPlace(qt);
+	}
+	
+	public void orderPlace(int q)
+	{
+		
+	}
+	
+}
+
+public class Order 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+}

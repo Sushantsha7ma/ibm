@@ -1,0 +1,10 @@
+package Problm1;
+
+public class Validation 
+{
+	public void valid(String name,String Password)
+	{
+		
+	}
+
+}

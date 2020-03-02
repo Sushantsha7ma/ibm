@@ -1,0 +1,33 @@
+package D8Threads.D8DeadLock;
+
+import java.util.List;
+
+public class Admin implements Runnable,MinMax
+{
+	List<Integer> list;
+
+	public Admin(List<Integer> list) 
+	{
+		this.list=list;
+	}
+	public void run() 
+	{
+		while(true)
+		{
+			produce();
+		}
+	}
+	
+	public void produce()
+	{
+		if(list.size()==min)
+		{
+			
+		}
+		else 
+		{
+			list.add((int)(Math.random(100)));
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+package TestCalculator;
+
+import org.junit.*;
+
+import Calculator.Calculator;
+
+public class Testing 
+{
+	@Test
+	public void test1() 
+	{
+		Calculator c = new Calculator();
+		int a = c.division(5,1);
+		System.out.println(a);
+	}
+	
+	@Test(expected = ArithmeticException.class)
+	public void test2()throws NullPointerException
+	{
+		Calculator c = new Calculator();
+		
+		System.out.println(c.division(5,0));
+	}
+}

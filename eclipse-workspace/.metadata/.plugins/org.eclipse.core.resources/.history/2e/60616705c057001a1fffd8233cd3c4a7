@@ -1,0 +1,17 @@
+package D6Collection;
+
+import java.util.*;
+
+public class Student 
+{
+	 String name;
+	 int age;
+	 
+	public Student(String name, int age) 
+	{
+		this.name = name;
+		this.age = age;
+	}
+	 
+	 
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\admin\eclipse-workspace\Assessment"/>
+			<item value="C:\Users\admin\eclipse-workspace\IBM Training"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="as"/>
+			<item value="sad"/>
+			<item value="xcv"/>
+			<item value="a"/>
+			<item value="aa"/>
+			<item value="M"/>
+			<item value="adfad"/>
+			<item value="h"/>
+			<item value="fx"/>
+			<item value="Project"/>
+			<item value="dsfd"/>
+		</list>
+		<list key="name">
+			<item value="asf"/>
+			<item value="dsgf"/>
+			<item value="xcv"/>
+			<item value="asdf"/>
+			<item value="asasad"/>
+			<item value="aaa"/>
+			<item value="Ma"/>
+			<item value="Mahendra"/>
+			<item value="afsdf"/>
+			<item value="fhfh"/>
+			<item value="hfjg"/>
+			<item value="asd"/>
+			<item value="Assessment"/>
+			<item value="sdf"/>
+		</list>
+		<list key="artifactId">
+			<item value="asd"/>
+			<item value="dsf"/>
+			<item value="xcv"/>
+			<item value="as"/>
+			<item value="aa"/>
+			<item value="aas"/>
+			<item value="sf"/>
+			<item value="Ma"/>
+			<item value="dafsdaf"/>
+			<item value="fgh"/>
+			<item value="bg"/>
+			<item value="aw"/>
+			<item value="Pro"/>
+			<item value="sdf"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="529"/>
+		<item key="x" value="484"/>
+		<item key="y" value="0"/>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\admin\Downloads\New folder\IBM_C-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>
